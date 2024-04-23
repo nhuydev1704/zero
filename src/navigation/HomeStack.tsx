@@ -26,12 +26,7 @@ const screenOptions = {
 
 const HomeIcon = ({color}: any) => (
   <View style={{alignItems: 'center'}}>
-    <Icon
-      name={'home'}
-      size={28}
-      type={'MaterialIcons'}
-      color={color}
-    />
+    <Icon name={'home'} size={28} type={'MaterialIcons'} color={color} />
     <Text style={[styles.labelText, {color: color}]}>Home</Text>
   </View>
 );
@@ -83,7 +78,7 @@ const TabStack = () => {
           tabBarIcon: HomeIcon,
           tabBarStyle: {
             backgroundColor: colors.containerColor,
-            height: 55,
+            height: 80,
           },
         }}
       />
@@ -95,7 +90,7 @@ const TabStack = () => {
           tabBarIcon: ReportsIcon,
           tabBarStyle: {
             backgroundColor: colors.containerColor,
-            height: 55,
+            height: 80,
           },
         }}
       />
@@ -107,7 +102,7 @@ const TabStack = () => {
           tabBarIcon: CategoriesIcon,
           tabBarStyle: {
             backgroundColor: colors.containerColor,
-            height: 55,
+            height: 80,
           },
         }}
       />
@@ -119,7 +114,7 @@ const TabStack = () => {
           tabBarIcon: DebtIcon,
           tabBarStyle: {
             backgroundColor: colors.containerColor,
-            height: 55,
+            height: 80,
           },
         }}
       />
